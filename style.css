@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-link{
+    margin: auto;
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: green;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+}
+
+.btn:hover:active {
+    filter: brightness(90%);
+}
+
+a{
+    text-decoration: none;
+}
